@@ -104,6 +104,9 @@
             <groupId>io.fabric8</groupId>
             <artifactId>docker-maven-plugin</artifactId>
             <version>0.15.9</version>
+              <configuration>
+    <javaMainClass>io.vertx.core.Launcher</javaMainClass>
+  </configuration>
             <configuration>
               <images>
                 <image>
